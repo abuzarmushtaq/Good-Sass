@@ -1,6 +1,6 @@
 # Sass [![Travis Build Status](https://travis-ci.org/sass/sass.svg?branch=next)](https://travis-ci.org/sass/sass) [![Gem Version](https://badge.fury.io/rb/sass.svg)](http://badge.fury.io/rb/sass) [![Inline docs](http://inch-ci.org/github/sass/sass.svg)](http://inch-ci.org/github/sass/sass)
 
-**Sass makes CSS fun again**. Sass is an extension of CSS,
+**Good-Sass makes CSS fun again**. Sass is an extension of CSS,
 adding nested rules, variables, mixins, selector inheritance, and more.
 It's translated to well-formatted, standard CSS
 using the command line tool or a web-framework plugin.
@@ -24,9 +24,17 @@ Files in the indented syntax use the extension `.sass`.
 
 Sass can be used from the command line
 or as part of a web framework.
-The first step is to install the gem:
+The first step is to install the NodeJS:
 
-    gem install sass
+    npm install sass 
+
+    for task runner like Gulp
+
+    npm install gulp
+
+    then install
+
+    npm install gulp-sass
 
 After you convert some CSS to Sass, you can run
 
@@ -37,26 +45,11 @@ For more information on these commands, check out
 
     sass --help
 
-To install Sass in Rails 2,
-just add `config.gem "sass"` to `config/environment.rb`.
-In Rails 3, add `gem "sass"` to your Gemfile instead.
-`.sass` or `.scss` files should be placed in `public/stylesheets/sass`,
-where they'll be automatically compiled
-to corresponding CSS files in `public/stylesheets` when needed
-(the Sass template directory is customizable...
-see [the Sass reference](http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#template_location-option) for details).
+
 
 Sass can also be used with any Rack-enabled web framework.
 To do so, just add
 
-```ruby
-require 'sass/plugin/rack'
-use Sass::Plugin::Rack
-```
-
-to `config.ru`.
-Then any Sass files in `public/stylesheets/sass`
-will be compiled into CSS files in `public/stylesheets` on every request.
 
 To use Sass programmatically,
 check out the [YARD documentation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#using_sass).
@@ -191,37 +184,9 @@ $ bundle exec scss ...
 $ bundle exec sass-convert ...
 ```
 
-## Authors
+### Note:
 
-Sass was envisioned by [Hampton Catlin](http://www.hamptoncatlin.com)
-(@hcatlin). However, Hampton doesn't even know his way around the code anymore
-and now occasionally consults on the language issues. Hampton lives in San
-Francisco, California and works as VP of Technology
-at [Moovweb](http://www.moovweb.com/).
-
-[Natalie Weizenbaum](https://twitter.com/nex3) is the primary developer and
-architect of Sass. Her hard work has kept the project alive by endlessly
-answering forum posts, fixing bugs, refactoring, finding speed improvements,
-writing documentation, implementing new features, and designing the language.
-Natalie lives in Seattle, Washington and works on [Dart](http://dartlang.org)
-application libraries at Google.
-
-[Chris Eppstein](http://twitter.com/chriseppstein) is a core contributor to
-Sass and the creator of [Compass](http://compass-style.org/), the first Sass-based framework, and
-[Eyeglass](http://github.com/sass-eyeglass/eyeglass), a node-sass plugin ecosystem for NPM. Chris focuses
-on making Sass more powerful, easy to use, and on ways to speed its adoption
-through the web development community. Chris lives in San Jose, California with
-his wife and two children. He is an Engineer for
-[LinkedIn.com](http://linkedin.com), where his primary responsibility is to
-maintain Sass and many other Sass-related open source projects.
-
-If you use this software, we'd be truly honored if you'd make a
-tax-deductible donation to a non-profit organization and then
-[let us know on twitter](http://twitter.com/SassCSS), so that we can
-thank you. Here's a few that we endorse:
-
-* [Trans Justice Funding Project](http://www.transjusticefundingproject.org/)
-* [United Mitochondrial Disease Foundation](http://umdf.org/compass)
-* [Girl Develop It](https://www.girldevelopit.com/donate)
+We are do not promoting lesbian and gay movements against nature. We are focused on the natural way.
+**Peace be upon you**
 
 Sass is licensed under the MIT License.
