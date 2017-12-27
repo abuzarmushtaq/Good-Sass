@@ -186,7 +186,7 @@ $ bundle exec sass-convert ...
 
 ### Note:
 
-We are do not promoting lesbian and gay movements against nature. We are focused on the natural way.
+We are do not promoting lesbian and gay movements against nature. We are focused on the natural way. :)
 **Peace be upon you**
 
 Sass is licensed under the MIT License.
